@@ -56,6 +56,7 @@ function Search({ value, onChange, onIconClick, contextPath }) {
         <div>
             <span>
                 <InputField
+                    label=""
                     value={value}
                     name="filter"
                     placeholder={i18n.t('Search apps')}
